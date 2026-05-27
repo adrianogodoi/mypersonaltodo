@@ -2,18 +2,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
-# Copia os arquivos de solução e projetos
-COPY *.slnx *.sln ./
-COPY MyPersonalToDo.Api/*.csproj ./MyPersonalToDo.Api/
-COPY MyPersonalToDo.Domain/*.csproj ./MyPersonalToDo.Domain/
-COPY MyPersonalToDo.Repositories/*.csproj ./MyPersonalToDo.Repositories/
-COPY MyPersonalToDo.Services/*.csproj ./MyPersonalToDo.Services/
-
-# Restaura as dependências
-RUN dotnet restore "MyPersonalToDoSolution.slnx"
-
-# Copia o restante do código
+# Copia tudo de uma vez para o container. 
+# Isso resolve erros de "arquivo não encontrado" ao tentar copiar subpastas manualmente.
 COPY . .
+
+# Restaura usando o arquivo de solução (se você tiver .sln ou .slnx, o dotnet restore encontra)
+RUN dotnet restore
 
 # Publica a API
 RUN dotnet publish "MyPersonalToDo.Api/MyPersonalToDo.Api.csproj" -c Release -o /publish
@@ -23,8 +17,8 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 COPY --from=build /publish .
 
-# Escuta na porta 80 do container
+# Define a porta
 ENV ASPNETCORE_URLS=http://+:80
 
-# Container rodando
+# Comando de entrada
 ENTRYPOINT ["dotnet", "MyPersonalToDo.Api.dll"]
