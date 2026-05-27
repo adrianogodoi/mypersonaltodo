@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MyPersonalToDo.Api/MyPersonalToDo.Api.csproj" />
+  <Project Path="MyPersonalToDo.Domain/MyPersonalToDo.Domain.csproj" />
+  <Project Path="MyPersonalToDo.Repositories/MyPersonalToDo.Repositories.csproj" />
+  <Project Path="MyPersonalToDo.Services/MyPersonalToDo.Services.csproj" />
+</Solution>
