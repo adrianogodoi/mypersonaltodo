@@ -3,10 +3,8 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
 # Copia tudo de uma vez para o container. 
-# Isso resolve erros de "arquivo não encontrado" ao tentar copiar subpastas manualmente.
 COPY . .
 
-# Restaura usando o arquivo de solução (se você tiver .sln ou .slnx, o dotnet restore encontra)
 RUN dotnet restore
 
 # Publica a API
