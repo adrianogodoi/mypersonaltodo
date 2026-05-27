@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c7uwp5QzUok=",
+  "dgSpecHash": "8yhm/pkcbbo=",
   "success": true,
-  "projectFilePath": "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
+  "projectFilePath": "D:\\mypersonaltodo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\principal\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\principal\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

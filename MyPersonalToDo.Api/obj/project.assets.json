@@ -5593,11 +5593,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
+      "projectUniqueName": "D:\\mypersonaltodo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
       "projectName": "MyPersonalToDo.Api",
-      "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
+      "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
       "packagesPath": "C:\\Users\\principal\\.nuget\\packages\\",
-      "outputPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\obj\\",
+      "outputPath": "D:\\mypersonaltodo\\MyPersonalToDo.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5619,14 +5619,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
-              "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj"
+            "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
+              "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj"
             },
-            "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj": {
-              "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj"
+            "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj": {
+              "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj"
             },
-            "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj": {
-              "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj"
+            "D:\\mypersonaltodo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj": {
+              "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj"
             }
           }
         }

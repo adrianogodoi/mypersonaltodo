@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj": {}
+    "D:\\mypersonaltodo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj": {}
   },
   "projects": {
-    "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj": {
+    "D:\\mypersonaltodo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
+        "projectUniqueName": "D:\\mypersonaltodo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
         "projectName": "MyPersonalToDo.Api",
-        "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
+        "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
         "packagesPath": "C:\\Users\\principal\\.nuget\\packages\\",
-        "outputPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\obj\\",
+        "outputPath": "D:\\mypersonaltodo\\MyPersonalToDo.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
-                "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj"
+              "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
+                "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj"
               },
-              "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj": {
-                "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj"
+              "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj": {
+                "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj"
               },
-              "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj": {
-                "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj"
+              "D:\\mypersonaltodo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj": {
+                "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj"
               }
             }
           }
@@ -103,14 +103,14 @@
         }
       }
     },
-    "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
+    "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj",
+        "projectUniqueName": "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj",
         "projectName": "MyPersonalToDo.Domain",
-        "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj",
+        "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj",
         "packagesPath": "C:\\Users\\principal\\.nuget\\packages\\",
-        "outputPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\obj\\",
+        "outputPath": "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,14 +169,14 @@
         }
       }
     },
-    "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj": {
+    "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj",
+        "projectUniqueName": "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj",
         "projectName": "MyPersonalToDo.Repositories",
-        "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj",
+        "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj",
         "packagesPath": "C:\\Users\\principal\\.nuget\\packages\\",
-        "outputPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\obj\\",
+        "outputPath": "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -198,8 +198,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
-                "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj"
+              "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
+                "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj"
               }
             }
           }
@@ -255,14 +255,14 @@
         }
       }
     },
-    "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj": {
+    "D:\\mypersonaltodo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
+        "projectUniqueName": "D:\\mypersonaltodo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
         "projectName": "MyPersonalToDo.Services",
-        "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
+        "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
         "packagesPath": "C:\\Users\\principal\\.nuget\\packages\\",
-        "outputPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\obj\\",
+        "outputPath": "D:\\mypersonaltodo\\MyPersonalToDo.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -284,11 +284,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
-                "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj"
+              "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj": {
+                "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj"
               },
-              "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj": {
-                "projectPath": "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj"
+              "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj": {
+                "projectPath": "D:\\mypersonaltodo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj"
               }
             }
           }
