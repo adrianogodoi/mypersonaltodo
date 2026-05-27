@@ -1,0 +1,28 @@
+services:
+  # Serviço do Banco de Dados
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sql_mypersonaltodo
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=MyPersonalToDo2026!
+    ports:
+      - "1433:1433"
+    volumes:
+      - mypersonal_db_data:/var/opt/mssql
+
+  # Serviço da sua API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mypersonaltodo_api
+    ports:
+      - "8080:80"
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=db;Database=MyPersonalToDoDb;User Id=sa;Password=MyPersonalToDo2026!;TrustServerCertificate=True;
+    depends_on:
+      - db
+
+volumes:
+  mypersonal_db_data:

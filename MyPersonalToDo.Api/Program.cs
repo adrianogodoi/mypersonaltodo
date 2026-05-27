@@ -12,9 +12,25 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+/*
+Caso deseja usar o SqLite descomencar essa linha e comentar a do SQl Server
 builder.Services.AddDbContext<MyPersonalTodoDbContext>(options =>
     options.UseSqlite("Data Source=MyPersonalToDoDatabase.db", b =>
         b.MigrationsAssembly("MyPersonalToDo.Api")));
+]*/
+
+builder.Services.AddDbContext<MyPersonalTodoDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        b => b.MigrationsAssembly("MyPersonalToDo.Api") 
+    )
+);
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<MyPersonalTodoDbContext>();
+    dbContext.Database.Migrate(); 
+}
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IToDoService, ToDoService>();

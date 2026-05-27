@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPersonalToDo.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ddd43f3e7e9eddeb831aa8ab53414d6f9449671")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb58861f5c21d8b43b2dfeef5eaedfdf489e0f0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPersonalToDo.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPersonalToDo.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
