@@ -18,13 +18,13 @@ COPY . .
 # Publica a API
 RUN dotnet publish "MyPersonalToDo.Api/MyPersonalToDo.Api.csproj" -c Release -o /publish
 
-# Estágio 2: Runtime (O que faltava para a API rodar)
+# Estágio 2: Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 COPY --from=build /publish .
 
-# Garante que a aplicação escute na porta 80 do container
+# Escuta na porta 80 do container
 ENV ASPNETCORE_URLS=http://+:80
 
-# Comando que mantém o container rodando
+# Container rodando
 ENTRYPOINT ["dotnet", "MyPersonalToDo.Api.dll"]
