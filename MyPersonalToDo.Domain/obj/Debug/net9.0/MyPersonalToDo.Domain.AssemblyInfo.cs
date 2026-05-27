@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPersonalToDo.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01eb74b48b4dae54b9f58c0ebc094712cdc0bca9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2c0e60d482f7475dfa23b395ceacc7a8b9c2914")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPersonalToDo.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPersonalToDo.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
