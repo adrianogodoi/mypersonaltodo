@@ -1,0 +1,145 @@
+{
+  "info": {
+    "_postman_id": "35117d85-8cfd-40d3-8ea8-5c10534031d3",
+    "name": "MyPersonalToDo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "8250842"
+  },
+  "item": [
+    {
+      "name": "List",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/v1/ToDo/List",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "v1",
+            "ToDo",
+            "List"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GetById",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7181/api/v1/ToDo/9",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7181",
+          "path": [
+            "api",
+            "v1",
+            "ToDo",
+            "9"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7181/api/v1/ToDo/9",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7181",
+          "path": [
+            "api",
+            "v1",
+            "ToDo",
+            "9"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"titulo\": \"Minha tarefa\",\r\n    \"descricao\": \"Minha descrição\",\r\n    \"dataVencimento\": \"21/04/2025\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7181/api/v1/ToDo",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7181",
+          "path": [
+            "api",
+            "v1",
+            "ToDo"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"Id\": 6,\r\n    \"titulo\": \"Minha tarefa testecqqqq\",\r\n    \"descricao\": \"aaaaaaaaaaaaaaaaaaaa\",\r\n    \"StatusId\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7181/api/v1/ToDo",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7181",
+          "path": [
+            "api",
+            "v1",
+            "ToDo"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
