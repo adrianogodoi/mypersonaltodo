@@ -26,11 +26,7 @@ builder.Services.AddDbContext<MyPersonalTodoDbContext>(options =>
     )
 );
 
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<MyPersonalTodoDbContext>();
-    dbContext.Database.Migrate(); 
-}
+
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IToDoService, ToDoService>();
@@ -48,6 +44,12 @@ builder.Services.AddSwaggerGen(c =>
 
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<MyPersonalTodoDbContext>();
+    dbContext.Database.Migrate();
+}
 
 if (app.Environment.IsDevelopment())
 {

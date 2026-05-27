@@ -1,24 +1,22 @@
 # Estágio de Build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /app
+WORKDIR /src
 
-# Copia os arquivos .csproj de cada projeto para permitir a restauração
-COPY ["MyPersonalToDo.Api/MyPersonalToDo.Api.csproj", "MyPersonalToDo.Api/"]
-COPY ["MyPersonalToDo.Domain/MyPersonalToDo.Domain.csproj", "MyPersonalToDo.Domain/"]
-COPY ["MyPersonalToDo.Repositories/MyPersonalToDo.Repositories.csproj", "MyPersonalToDo.Repositories/"]
-COPY ["MyPersonalToDo.Services/MyPersonalToDo.Services.csproj", "MyPersonalToDo.Services/"]
+# 1. Copia apenas o arquivo de solução/projetos primeiro (para cachear os pacotes)
+COPY *.slnx *.sln ./
+COPY MyPersonalToDo.Api/*.csproj ./MyPersonalToDo.Api/
 
-# Restaura os pacotes NuGet apenas para a API (que referencia os outros)
-RUN dotnet restore "MyPersonalToDo.Api/MyPersonalToDo.Api.csproj"
+# 2. Restaura as dependências (agora o cache funciona melhor)
+RUN dotnet restore "MyPersonalToDoSolution.slnx"
 
-# Copia todo o restante do código fonte para dentro do container
+# 3. Copia o restante do código fonte
 COPY . .
 
-# Compila e publica a API
-RUN dotnet publish "MyPersonalToDo.Api/MyPersonalToDo.Api.csproj" -c Release -o /app/publish
+# 4. Publica
+RUN dotnet publish "MyPersonalToDo.Api/MyPersonalToDo.Api.csproj" -c Release -o /publish
 
-# Estágio de Runtime (mais leve para rodar)
+# Estágio de Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=build /app/publish .
+COPY --from=build /publish .
 ENTRYPOINT ["dotnet", "MyPersonalToDo.Api.dll"]

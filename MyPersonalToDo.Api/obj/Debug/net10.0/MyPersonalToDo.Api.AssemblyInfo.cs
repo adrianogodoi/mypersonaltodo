@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPersonalToDo.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb58861f5c21d8b43b2dfeef5eaedfdf489e0f0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf518383b81f96a97237cf7843e94bc82952a9f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPersonalToDo.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPersonalToDo.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
