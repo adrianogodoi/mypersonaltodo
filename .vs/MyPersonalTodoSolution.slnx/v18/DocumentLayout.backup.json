@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{94DCCDFA-A57D-8E0E-C4E9-396FCB5ECFE3}|MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj|solutionrelative:mypersonaltodo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{94DCCDFA-A57D-8E0E-C4E9-396FCB5ECFE3}|MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj|d:\\mypersonaltodo\\mypersonaltodo.api\\mypersonaltodo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94DCCDFA-A57D-8E0E-C4E9-396FCB5ECFE3}|MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj|solutionrelative:mypersonaltodo.api\\mypersonaltodo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{94DCCDFA-A57D-8E0E-C4E9-396FCB5ECFE3}|MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj|d:\\mypersonaltodo\\mypersonaltodo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{94DCCDFA-A57D-8E0E-C4E9-396FCB5ECFE3}|MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj|solutionrelative:mypersonaltodo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571218C0-2770-4524-5222-26FF624CF42F}|MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj|d:\\mypersonaltodo\\mypersonaltodo.services\\mypersonaltodo.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{571218C0-2770-4524-5222-26FF624CF42F}|MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj|solutionrelative:mypersonaltodo.services\\mypersonaltodo.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{453D6E8F-218D-5E2C-00FF-B927A894B91E}|MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj|d:\\mypersonaltodo\\mypersonaltodo.repositories\\mypersonaltodo.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{453D6E8F-218D-5E2C-00FF-B927A894B91E}|MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj|solutionrelative:mypersonaltodo.repositories\\mypersonaltodo.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23C012AB-BAC7-D212-B65F-6B0386F358D0}|MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj|d:\\mypersonaltodo\\mypersonaltodo.domain\\mypersonaltodo.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23C012AB-BAC7-D212-B65F-6B0386F358D0}|MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj|solutionrelative:mypersonaltodo.domain\\mypersonaltodo.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +34,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyPersonalToDo.Services.csproj",
+              "DocumentMoniker": "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
+              "RelativeDocumentMoniker": "MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
+              "ToolTip": "D:\\MyPersonalToDo\\MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
+              "RelativeToolTip": "MyPersonalToDo.Services\\MyPersonalToDo.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T13:18:09.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyPersonalToDo.Domain.csproj",
+              "DocumentMoniker": "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj",
+              "RelativeDocumentMoniker": "MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj",
+              "ToolTip": "D:\\MyPersonalToDo\\MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj",
+              "RelativeToolTip": "MyPersonalToDo.Domain\\MyPersonalToDo.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T13:18:01.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MyPersonalToDo.Api.csproj",
+              "DocumentMoniker": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
+              "RelativeDocumentMoniker": "MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
+              "ToolTip": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
+              "RelativeToolTip": "MyPersonalToDo.Api\\MyPersonalToDo.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T13:17:44.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyPersonalToDo.Repositories.csproj",
+              "DocumentMoniker": "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj",
+              "RelativeDocumentMoniker": "MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj",
+              "ToolTip": "D:\\MyPersonalToDo\\MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj",
+              "RelativeToolTip": "MyPersonalToDo.Repositories\\MyPersonalToDo.Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T13:16:22.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\appsettings.json",
               "RelativeDocumentMoniker": "MyPersonalToDo.Api\\appsettings.json",
               "ToolTip": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\appsettings.json",
               "RelativeToolTip": "MyPersonalToDo.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-27T11:37:16.433Z"
+              "WhenOpened": "2026-05-27T11:37:16.433Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +109,7 @@
               "RelativeDocumentMoniker": "MyPersonalToDo.Api\\Program.cs",
               "ToolTip": "D:\\MyPersonalToDo\\MyPersonalToDo.Api\\Program.cs",
               "RelativeToolTip": "MyPersonalToDo.Api\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwCYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T11:08:00.192Z",
               "EditorCaption": ""

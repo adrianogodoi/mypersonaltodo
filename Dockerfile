@@ -1,22 +1,30 @@
-# Estágio de Build
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# Estágio 1: Build
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
-# 1. Copia apenas o arquivo de solução/projetos primeiro (para cachear os pacotes)
+# Copia os arquivos de solução e projetos
 COPY *.slnx *.sln ./
 COPY MyPersonalToDo.Api/*.csproj ./MyPersonalToDo.Api/
+COPY MyPersonalToDo.Domain/*.csproj ./MyPersonalToDo.Domain/
+COPY MyPersonalToDo.Repositories/*.csproj ./MyPersonalToDo.Repositories/
+COPY MyPersonalToDo.Services/*.csproj ./MyPersonalToDo.Services/
 
-# 2. Restaura as dependências (agora o cache funciona melhor)
+# Restaura as dependências
 RUN dotnet restore "MyPersonalToDoSolution.slnx"
 
-# 3. Copia o restante do código fonte
+# Copia o restante do código
 COPY . .
 
-# 4. Publica
+# Publica a API
 RUN dotnet publish "MyPersonalToDo.Api/MyPersonalToDo.Api.csproj" -c Release -o /publish
 
-# Estágio de Runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+# Estágio 2: Runtime (O que faltava para a API rodar)
+FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS runtime
 WORKDIR /app
 COPY --from=build /publish .
+
+# Garante que a aplicação escute na porta 80 do container
+ENV ASPNETCORE_URLS=http://+:80
+
+# Comando que mantém o container rodando
 ENTRYPOINT ["dotnet", "MyPersonalToDo.Api.dll"]

@@ -11,7 +11,7 @@ services:
     volumes:
       - mypersonal_db_data:/var/opt/mssql
 
-  # Serviço da sua API
+  # Serviço API
   api:
     build:
       context: .
@@ -21,6 +21,7 @@ services:
       - "8080:80"
     environment:
       - ConnectionStrings__DefaultConnection=Server=db;Database=MyPersonalToDoDb;User Id=sa;Password=MyPersonalToDo2026!;TrustServerCertificate=True;
+      - ASPNETCORE_ENVIRONMENT=Development 
     depends_on:
       - db
 

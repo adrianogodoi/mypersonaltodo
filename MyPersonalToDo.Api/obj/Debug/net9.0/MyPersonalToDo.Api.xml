@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyPersonalToDo.Api</name>
+    </assembly>
+    <members>
+        <member name="T:MyPersonalToDo.Api.Migrations.InitialSqlServer">
+            <inheritdoc />
+        </member>
+        <member name="M:MyPersonalToDo.Api.Migrations.InitialSqlServer.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyPersonalToDo.Api.Migrations.InitialSqlServer.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MyPersonalToDo.Api.Migrations.InitialSqlServer.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
